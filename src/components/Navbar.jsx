@@ -58,7 +58,7 @@ export default function Navbar() {
 									</Link>
 								</li>
 								<li className='hover:scale-x-110 transition'>
-									<Link href={'questions'}>Questions</Link>
+									<Link href={'/questions'}>Questions</Link>
 								</li>
 							</>
 						)}

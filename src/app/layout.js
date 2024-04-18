@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
 	return (
 		<html lang='en'>
 			<body className={rubik.className}>
-				<Navbar />
+				{/* <Navbar /> */}
 				<div>{children}</div>
 				<ToastContainer position='top-center'/>
 			</body>
