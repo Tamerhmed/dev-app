@@ -47,7 +47,7 @@ export default function Navbar() {
 								</li>
 							</>
 						)}
-						{pathname === '/instructions' && (
+						{pathname === '/questions' && (
 							<>
 								<li className='hover:scale-x-110 transition'>
 									<Link
