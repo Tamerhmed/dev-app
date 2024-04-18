@@ -7,10 +7,14 @@
 	min-height: calc(100vh - 96px);
 }
 
+.question-list {
+	width:90%;
+}
+
 .question-list li {
 	border: 1px solid #ddd;
 	padding: 10px 0 10px 10px;
-	width: 45%;
+	width: 100%;
 	margin: 8px 0;
 	border-radius: 8px;
 	/* font-size: large; */

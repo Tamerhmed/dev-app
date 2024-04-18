@@ -12,8 +12,8 @@ const rubik = Rubik({
 });
 
 export const metadata = {
-	title: 'Leadership Reflection Tool',
-	description: 'leadership reflection tool',
+	title: 'quiz',
+	description: 'quiz',
 };
 
 export default function RootLayout({ children }) {

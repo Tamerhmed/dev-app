@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 // import { quiz } from '@/data';
-import { quiz } from '@/utils/short-list';
+import { quiz } from '@/data';
 import { toast } from 'react-toastify';
 import { useRouter } from 'next/navigation';
 import ShowResult from './ShowResult';
@@ -154,7 +154,7 @@ export default function Questions() {
 							<h2 className='text-3xl font-semibold mb-4'>
 								{questions[activeQuestion].question}
 							</h2>
-							<ul className='question-list flex flex-wrap justify-center items-start gap-4 text-lg md:text-xl'>
+							<ul className='question-list flex flex-col justify-center items-center gap-4 text-lg md:text-xl'>
 								{answers.map((answer, idx) => (
 									<li
 										key={idx}

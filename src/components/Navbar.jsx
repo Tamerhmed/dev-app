@@ -23,7 +23,7 @@ export default function Navbar() {
 				}
 			>
 				<div className='logo'>
-					<h2 className='text-3xl font-semibold'>Aitsl</h2>
+					<h2 className='text-3xl font-semibold'>quiz</h2>
 				</div>
 				<div>
 					<ul className='flex justify-center items-center gap-8 text-xl'>
